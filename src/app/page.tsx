@@ -8,10 +8,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <AboutUs />
-      <Tokenomics />
-      <Features />
-      <Footer />
     </main>
   );
 }
