@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@font-face {
+  font-family: "Cutie Molly Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/CutieMolly-Regular-DEMO.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Cutie Molly Demo","Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bordered-text {
+  text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
+    -2px -2px 0 #fff;
+}
