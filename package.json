@@ -9,10 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "canvas": "^2.11.2",
-    "file-saver": "^2.0.5",
-    "html2canvas": "^1.4.1",
-    "konva": "^9.3.9",
+    "lucide-react": "^0.441.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
