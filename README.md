@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/user-attachments/assets/b98a294e-1c35-4cf5-89b2-ba7e629884c6)
+As you already know, I’ll be launching what I believe it will be the next big FREE MINT on solana.
 
-## Getting Started
+TRENCHORS 🪖 (https://x.com/trenchors)
 
-First, run the development server:
+There are so many things being developed behind the scenes it’s crazy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+• Partnership with a Netflix Animation Studio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+• A utility that I believe will be life changing for some people.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+• A token following up the utility.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+• Partner with a well known market maker team.
 
-## Learn More
+• Free airdrops.
 
-To learn more about Next.js, take a look at the following resources:
+• Revenue share from our token/utility
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+And the best part is that everything will be completely FREE
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+My goal here is to have Trenchors all over Solana, idgaf about the money.
 
-## Deploy on Vercel
+I’m so fucking bullish and excited to show you everything I’ve been working on the past weeks.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+As always thanks everyone for your daily support, shit is just getting started ♥️
