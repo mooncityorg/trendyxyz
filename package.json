@@ -1,6 +1,7 @@
 {
   "name": "puggy-fe",
   "version": "0.1.0",
+  "types": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
