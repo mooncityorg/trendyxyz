@@ -33,7 +33,7 @@ const Hero: FC = () => {
           </div>
         </div>
       </div>
-      <div className="sm:relative bottom-0 fixed w-full">
+      <div className="w-full">
         <div className="relative aspect-[868/475] w-full">
           <Image src="/media/main.webp" fill alt="" />
         </div>
