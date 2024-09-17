@@ -9,7 +9,7 @@ const Hero: FC = () => {
     <div className="min-h-[100vh] flex flex-col justify-between">
       <div>
         <div className="mx-auto w-full md:pt-0 pt-[100px]">
-          <div className="relative aspect-[950/475] w-2/3 mx-auto">
+          <div className="relative aspect-[950/475] w-4/5 mx-auto">
             <Image src="/media/logo.webp" fill alt="" />
           </div>
         </div>
@@ -25,7 +25,7 @@ const Hero: FC = () => {
           </div>
         </div>
         <div>
-          <div className="mx-auto flex justify-between items-center my-8 md:w-[600px] w-[75%]">
+          <div className="mx-auto flex justify-between items-center my-8 md:w-[600px] w-[60%]">
             <div className="relative aspect-[28/36] w-16 md:w-24 hover:cursor-pointer ">
               <DocumentIcon />
             </div>
