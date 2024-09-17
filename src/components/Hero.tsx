@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import { Search } from "lucide-react";
-import { DocumentIcon, X } from "./icons";
+import { DocumentIcon, X } from "@/components/icons";
 
 const Hero: FC = () => {
   return (
