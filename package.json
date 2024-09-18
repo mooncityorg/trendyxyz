@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "lucide-react": "^0.441.0",
+    "mongoose": "^8.6.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-konva": "^18.2.10",
+    "react-toastify": "^10.0.5",
     "use-image": "^1.1.1"
   },
   "devDependencies": {

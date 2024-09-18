@@ -1,10 +1,21 @@
 "use client";
-import React, { FC } from "react";
+import React, { FC, useCallback, useState } from "react";
 import Image from "next/image";
 import { Search } from "lucide-react";
 import { DocumentIcon, X } from "./Icons";
+import { checkWallet } from "@/utils/util";
+import { toast } from "react-toastify";
 
 const Hero: FC = () => {
+  const [wallet, setWallet] = useState("");
+
+  const handleCheck = useCallback( async () => {
+    const result = await checkWallet(wallet);
+    if(result.success) {
+      result.isExist ? toast.success("Your Wallet exists") : toast.warning("Not Exist")
+    } else toast.error("Server error")
+  },[wallet])
+
   return (
     <div className="min-h-[100vh] flex flex-col justify-between">
       <div>
@@ -18,10 +29,10 @@ const Hero: FC = () => {
             Wallet Checker
           </div>
           <div className="flex rounded-full h-12 md:w-[768px] w-[95%] bg-blue-100 shadow-lg p-1 gap-4 mx-auto">
-            <div className="rounded-full h-10 aspect-square shadow-lg flex bg-white justify-center items-center hover:cursor-pointer">
+            <div className="rounded-full h-10 aspect-square shadow-lg flex bg-white justify-center items-center hover:cursor-pointer" onClick={handleCheck}>
               <Search />
             </div>
-            <input className="border-0 bg-transparent focus:outline-0 w-full" />
+            <input className="border-0 bg-transparent focus:outline-0 w-full" value={wallet} onChange={(e) => {setWallet(e.target.value)}}/>
           </div>
         </div>
         <div>

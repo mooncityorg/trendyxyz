@@ -1,0 +1,1 @@
+export const MONGO_URL="mongodb+srv://alexnietocollin:jhzjSXgxMiz8wyju@cluster0.y6ofj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/wifo"
