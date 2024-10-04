@@ -23,16 +23,16 @@ const Hero: FC = () => {
       <div className="absolute w-full bg-image h-[100vh] "></div>
       <div className="relative">
         <div className="mx-auto w-full md:pt-0 pt-[100px]">
-          <div className="relative aspect-[950/475] w-3/5 mx-auto">
+          <div className="relative aspect-[950/475] md:w-3/5 w-5/6 mx-auto">
             <Image src="/media/logo.webp" fill alt="" />
           </div>
         </div>
         <div>
           <div className="mx-auto flex justify-between items-center my-32 md:my-8 md:w-[600px] gap-8 w-[60%]">
-            <div className="p-4 rounded-full bg-yellow-400/70 w-50 md:w-100 aspect-square"><FaTelegramPlane color="3366ff" size={`100%`} /></div>
-            <div className="p-4 rounded-full bg-yellow-400/70 w-50 md:w-100 aspect-square"><FaTwitter color="0066ff" size={`100%`} /></div>
-            <div className="p-4 rounded-full bg-yellow-400/70 w-50 md:w-100 aspect-square"><FaDiscord color="#6600ff" size={`100%`} /></div>
-            <div className="p-4 rounded-full bg-yellow-400/70 w-50 md:w-100 aspect-square"><CgFileDocument color="#ffffff" size={`100%`} /></div>
+            <div className="p-1 rounded-full bg-yellow-400/70 hover:scale-110 hover:cursor-pointer w-50 md:w-100 aspect-square"><FaTelegramPlane color="3366ff" size={`100%`} /></div>
+            <div className="p-1 rounded-full bg-yellow-400/70 hover:scale-110 hover:cursor-pointer w-50 md:w-100 aspect-square"><FaTwitter color="0066ff" size={`100%`} /></div>
+            <div className="p-1 rounded-full bg-yellow-400/70 hover:scale-110 hover:cursor-pointer w-50 md:w-100 aspect-square"><FaDiscord color="#6600ff" size={`100%`} /></div>
+            <div className="p-1 rounded-full bg-yellow-400/70 hover:scale-110 hover:cursor-pointer w-50 md:w-100 aspect-square"><CgFileDocument color="#ffffff" size={`100%`} /></div>
           </div>
         </div>
       </div>
