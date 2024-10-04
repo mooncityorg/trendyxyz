@@ -21,3 +21,12 @@
   text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff,
     -2px -2px 0 #fff;
 }
+
+.bg-image {
+  background-image: url("/media/main.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
